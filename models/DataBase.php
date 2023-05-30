@@ -13,11 +13,11 @@
 	// }
     class DataBase{
         public static function connection(){
-            $hostname = "appwebinvdb.mysql.database.azure.com";
+            $hostname = "entrymc.mysql.database.azure.com";
             $port = "3306";
             $database = "dbappwebinv";
-            $username = "albeiro_admin";
-            $password = "Earv1234";
+            $username = "admon";
+            $password = "Super123";
             $options = array(
                 PDO::MYSQL_ATTR_SSL_CA => 'assets/db/DigiCertGlobalRootCA.crt.pem'
             );
